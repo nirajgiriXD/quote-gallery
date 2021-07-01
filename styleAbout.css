@@ -1,0 +1,90 @@
+main {
+    margin: auto;
+    margin-top: 97px;
+}
+
+#about1,
+#about2,
+#about3 {
+    width: 89%;
+    margin: auto;
+    display: flex;
+    overflow: hidden;
+    margin-top: 21px;
+    border-radius: 144px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.1), 0 8px 21px 0 rgba(0, 0, 0, 0.2);
+}
+
+#about1:hover,
+#about2:hover,
+#about3:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#pic1,
+#pic2,
+#pic3 {
+    margin-left: 13px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    width: 100px;
+    display: flex;
+    border-radius: 50%;
+}
+
+#about1 p,
+#about2 p,
+#about3 p {
+    font-size: 23px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+footer {
+    width: 100%;
+    height: 55px;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+footer ul {
+    margin-left: 385px;
+    display: flex;
+    list-style: none;
+}
+
+footer li {
+    margin-top: 17px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+@media screen and (max-width:1400px) {
+    #about1 p,
+    #about2 p,
+    #about3 p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    #about1 p,
+    #about2 p,
+    #about3 p {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    #about1 p,
+    #about2 p,
+    #about3 p {
+        font-size: 18px;
+        margin-top: 42px;
+    }
+}

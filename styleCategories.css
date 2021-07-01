@@ -1,0 +1,26 @@
+#category table {
+    margin: auto;
+    margin-top: 5em;
+    border-collapse: separate;
+    border-spacing: 5em 1em;
+}
+
+#category table tr td a {
+    color: black;
+    font-size: 27px;
+    margin: 55px;
+}
+
+#category table td {
+    height: 44px;
+    text-align: center;
+    border-radius: 5px;
+    border-radius: 50px;
+    border: 3px solid rgb(165, 60, 0);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#category table td:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255);
+}

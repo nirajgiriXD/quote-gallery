@@ -1,0 +1,136 @@
+#businessImage {
+    width: 676px;
+}
+
+#formDiv {
+    background-color: purple;
+    margin-top: 6em;
+    height: 490px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.1), 0 5px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+#mainDiv {
+    width: 1217px;
+    margin-left: 9em;
+    position: absolute;
+}
+
+#contentDiv {
+    width: 530px;
+    height: 482px;
+    margin-top: 4px;
+    margin-right: 6px;
+    float: right;
+    background-color: white;
+}
+
+#h11 {
+    margin: 34px;
+    font-weight: 300;
+    font-size: 34px;
+    color: black;
+}
+
+#formDiv input {
+    margin: 13px;
+    font-size: 21px;
+}
+
+#formDiv input[type="text"],
+#formDiv input[type="password"] {
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid #AAA;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+
+#formDiv input[type="text"],
+#formDiv input[type="password"] {
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid #AAA;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+
+#formDiv input[type="text"]:focus,
+#formDiv input[type="password"]:focus {
+    border-bottom: 2px solid #16a085;
+    color: #16a085;
+    transition: 0.2s ease;
+}
+
+#formDiv input[type="submit"] {
+    margin-top: 28px;
+    width: 100px;
+    height: 34px;
+    background: #16a085;
+    border: none;
+    border-radius: 34px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: uppercase;
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+
+#formDiv input[type="submit"]:hover,
+#formDiv input[type="submit"]:focus {
+    opacity: 0.8;
+    border-radius: 34px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transition: 0.1s ease;
+}
+
+#formDiv input[type="submit"]:active {
+    opacity: 1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    transition: 0.2s ease;
+}
+
+#contentDiv button {
+    margin-top: 28px;
+    width: 100px;
+    height: 34px;
+    background: #16a085;
+    border: none;
+    border-radius: 34px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: uppercase;
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+
+#contentDiv button:hover,
+#contentDiv button:focus {
+    opacity: 0.8;
+    border-radius: 34px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transition: 0.1s ease;
+}
+
+#contentDiv button:active {
+    opacity: 1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    transition: 0.2s ease;
+}
