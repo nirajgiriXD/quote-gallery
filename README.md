@@ -1,3 +1,5 @@
-# websiteDemo
+# Quote Gallery
 
-This repo is for demo purpose only, if you ever come to encounter it, just ignore. 
+It is a concept for a website that is an archive of quote where people can add their own quote or find the one they are searching for.
+
+XD
